@@ -1,5 +1,8 @@
-//day 1
-const inputValues = ["one111jxlmc7tvklrmhdpsix",
+
+
+// Puzzle input
+const inputValues = ["eightqrssm9httwogqshfxninepnfrppfzhsc",
+    "one111jxlmc7tvklrmhdpsix",
     "bptwone4sixzzppg",
     "ninezfzseveneight5kjrjvtfjqt5nineone",
     "58kk",
@@ -122,7 +125,6 @@ const inputValues = ["one111jxlmc7tvklrmhdpsix",
     "tbvdcsjsvmxtshv3fourseven4kmxvvfour9",
     "bxcsix19six8dnqsbx",
     "7five81ncchkdk",
-    "eightqrssm9httwogqshfxninepnfrppfzhsc",
     "four4ck7rtjmjpccpeightone",
     "fivetwo6nine1tdczktmfninelrbnnine",
     "onetwo9twoeight5sevensix",
@@ -1002,7 +1004,9 @@ const inputValues = ["one111jxlmc7tvklrmhdpsix",
 
 ]
 
+
 calibrationValues = [];
+
 
 inputValues.forEach(element => {
     // Find the first digit
@@ -1014,7 +1018,7 @@ inputValues.forEach(element => {
 
 });
 
-
+console.log(calibrationValues);
 
 let sumOfValues = 0;
 calibrationValues.forEach(value => {
